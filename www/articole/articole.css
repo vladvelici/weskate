@@ -1,0 +1,61 @@
+.article-title {
+	font-size:17px;
+	font-weight:bold;
+	color:#B09D00;
+	font-weight:bold;
+}
+.article-title:hover, .article-title:focus {
+	color:#A08C00;
+	text-decoration:underline;
+}
+.catdiv span {
+	display:none;
+}
+
+.catdiv:hover span {
+	display:inline;
+}
+.catdiv a {
+	padding:4px;
+	font-weight : bold;
+}
+.catdiv {
+	display:block;
+	padding:4px;
+}
+.ar_thumb {
+	width:110px;
+	height:110px;
+	background-position:50% 50%;
+	background-color:#eee;
+	background-repeat:no-repeat;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ccc;
+	float:left;
+	margin:5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+
+.ar_thumb a {
+	width:100px;
+	height:100px;
+	display:block;
+	margin:5px;
+	background-repeat:repeat;
+	background-color:transparent;
+}
+.ar_thumb a:hover, .ar_thumb:hover a {
+	background-image:url(http://img.weskate.ro/line.png);
+}
+.ar_thumb:hover {
+	border-color:#999;
+}
+.selected {
+	margin:10px 5px 5px 5px;
+	border-color:#333;
+	background-color:#ccc;
+}

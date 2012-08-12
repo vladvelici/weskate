@@ -1,0 +1,47 @@
+.capmain {
+font-family: Verdana, Arial, Halvetica, sans-serif;
+font-size: 30px;
+color:#B09D00;
+padding-left:10px;
+padding-bottom: 10px;
+}
+
+.capmain_color {
+font-family: Verdana, Arial, Halvetica, sans-serif;
+color:#B09D00;
+}
+
+.article_link:hover {
+text-decoration : underline;
+}
+.bara {
+	background-color:#D0BF00;
+	background-image:url(http://img.weskate.ro/look/degradeu.png);
+	background-repeat:repeat-x;
+}
+.header-umbra {
+	background-position:0px -16px;
+}
+
+.article_link {
+font-size : 14px;
+font-weight:bold;
+}
+.article_desc {
+font-size : 12px;
+padding-left: 7px;
+}
+
+.article_idx_cat_name {
+padding:4px;
+}
+
+
+.article_idx_cat_name:hover span {
+color:#000;
+}
+.celemai {
+font-size:13px;
+color :#990;
+font-weight:bold;
+}

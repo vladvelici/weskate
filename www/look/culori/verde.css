@@ -1,0 +1,21 @@
+.capmain {
+font-family: Verdana, Arial, Halvetica, sans-serif;
+font-size: 30px;
+color:#99BB77;
+padding-left:10px;
+padding-bottom: 10px;
+}
+
+.capmain_color {
+font-family: Verdana, Arial, Halvetica, sans-serif;
+color:#99BB77;
+}
+
+.bara {
+	background-color:#32963F;
+	background-image:url(http://img.weskate.ro/look/degradeu.png);
+	background-repeat:repeat-x;
+}
+.header-umbra {
+	background-position:0px -96px;
+}

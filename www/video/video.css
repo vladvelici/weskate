@@ -1,0 +1,21 @@
+a.redlink {
+	color:#333;
+}
+a.redlink:hover {
+	color:#CC5555;
+}
+.capmain a {
+	color:#C99;
+}
+.capmain a:hover, .capmain a:focus {
+	color:#C99;
+	text-decoration:underline;
+}
+
+a.capmain {
+	color:#C99;
+}
+a.capmain:hover, a.capmain:focus {
+	color:#C99;
+	text-decoration:underline;
+}

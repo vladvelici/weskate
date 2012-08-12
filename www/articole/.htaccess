@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /articole
+
+
+## articole
+
+RewriteRule ^[^/]*\.([0-9]+)$ index.php?article_id=$1 [L,NC]
+
+## cat articole
+
+RewriteRule ^categoria:diverse$ index.php?cat_id=3 [L,NC]
+RewriteRule ^categoria:intretinere-skate$ index.php?cat_id=5 [L,NC]
+RewriteRule ^categoria:pro-skateri-straini$ index.php?cat_id=6 [L,NC]
+RewriteRule ^categoria:skateri-romani$ index.php?cat_id=7 [L,NC]
+RewriteRule ^categoria:reviews$ index.php?cat_id=4 [L,NC]
+
+RewriteRule ^categoria:diverse-pag([0-9]+)$ index.php?cat_id=3&page=$1 [L,NC]
+RewriteRule ^categoria:intretinere-skate-pag([0-9]+)$ index.php?cat_id=5&page=$1 [L,NC]
+RewriteRule ^categoria:pro-skateri-straini-pag([0-9]+)$ index.php?cat_id=6&page=$1 [L,NC]
+RewriteRule ^categoria:skateri-romani-pag([0-9]+)$ index.php?cat_id=7&page=$1 [L,NC]
+RewriteRule ^categoria:reviews-pag([0-9]+)$ index.php?cat_id=4&page=$1 [L,NC]

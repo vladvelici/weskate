@@ -1,0 +1,24 @@
+RewriteBase /
+RewriteEngine On
+
+## profile :
+
+RewriteRule ^([^/\.]+)/?$ index.php?purl=$1 [L,NC]
+
+## blog :
+RewriteRule ^([^/\.]+)/?/blog$ blog/index.php?user=$1 [L,NC]
+RewriteRule ^([^/\.]+)/?/blog/[^/]*\.([0-9]+)$ blog/index.php?user=$1&id=$2 [L,NC]
+RewriteRule ^([^/\.]+)/?/blog/pag([0-9]+)$ blog/index.php?user=$1&rowstart=$2 [L,NC]
+RewriteRule ^([^/\.]+)/?/blog/[^/]*\.c([0-9]+)$ blog/index.php?user=$1&cat_id=$2 [L,NC]
+RewriteRule ^([^/\.]+)/?/blog/[^/]*\.c([0-9]+)-pag([0-9]+)$ blog/index.php?user=$1&cat_id=$2&rowstart=$3 [L,NC]
+RewriteRule ^([^/\.]+)/?/blog/err:not-found$ blog/index.php?user=$1&err=nf [L,NC]
+RewriteRule ^([^/\.]+)/?/blog/err:access-deny$ blog/index.php?user=$1&err=nr [L,NC]
+
+## friends :
+RewriteRule ^([^/\.]+)/?/prieteni$ prieteni/index.php?user=$1 [L,NC]
+
+
+## favorite:
+RewriteRule ^([^/\.]+)/?/favorite$ favorite/index.php?user=$1 [L,NC]
+## my:
+RewriteRule ^([^/\.]+)/?/my$ my/index.php?user=$1 [L,NC]

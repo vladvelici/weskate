@@ -1,0 +1,26 @@
+.comment {
+	border:2px solid #ccc;
+	background-color:#eee;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+	margin:5px;
+	padding:4px;
+}
+.comment_head {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+	font-weight:bold;
+	padding:4px;
+	background-color:#ccc;
+	margin-bottom:4px;
+}
+.comment_head div {
+	font-weight:normal;
+}
+#showcomments {
+	max-width:730px;
+}

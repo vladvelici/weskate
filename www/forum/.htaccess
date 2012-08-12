@@ -1,0 +1,13 @@
+RewriteBase /forum/
+RewriteEngine On
+
+## forum :
+RewriteRule ^[^/]*\.f([0-9]+)$ viewforum.php?forum_id=$1 [L,NC]
+RewriteRule ^[^/]*\.f([0-9]+)-pag([0-9]+)$ viewforum.php?forum_id=$1&rowstart=$2 [L,NC]
+RewriteRule ^[^/]*\/[^/]*\.d([0-9]+)$ viewthread.php?thread_id=$1 [L,NC]
+RewriteRule ^[^/]*\/[^/]*\.d([0-9]+)-pag([0-9]+)$ viewthread.php?thread_id=$1&rowstart=$2 [L,NC]
+RewriteRule ^[^/]*\/[^/]*\.d([0-9]+)-pid([0-9]+)$ viewthread.php?thread_id=$1&pid=$2 [L,NC]
+
+## mesaje de eroare:
+RewriteRule ^err:acces-respins$ index.php?err=1 [L]
+RewriteRule ^err:id-invalid$ index.php?err=2 [L]

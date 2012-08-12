@@ -1,0 +1,57 @@
+.newsmenu a {
+	display:block;
+	font-size:13px;
+	padding:4px;
+	font-weight:bold;
+}
+.newsmenu a:hover {
+	text-decoration:none;
+	background-color:#999;
+	color:#fff;
+}
+.newsmenu span {
+	display:block;
+	padding:3px;
+	border:1px solid #ccc;
+	font-weight:bold;
+	font-size:14px;
+}
+.newsmenu {
+	background-image:url(http://img.weskate.ro/look/linie_pe_bara.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding:6px;
+	white-space:nowrap;
+	min-height:80px;
+}
+.news-title {
+	font-family:Charcoal, Impact, sans-serif;
+	font-size:25px;
+	color:#DDAA55;
+}
+
+a.news-title:hover, a.news-title:focus {
+	color:#CC9944;
+	text-decoration:underline;
+}
+
+#change_local {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+	border:2px solid #ccc;
+	background-color:#f3f3f3;
+	position:absolute;
+	left:-250px;
+	z-index:5;
+}
+.newslocale {
+	background-image:url(http://img.weskate.ro/look/linie_pe_bara.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding:6px;
+	min-height:80px;
+	min-width:210px;
+	position:relative;
+}

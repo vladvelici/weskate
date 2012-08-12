@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /video/cat/
+
+
+## categorii video
+
+RewriteRule ^[^/]*\.([0-9]+)$ index.php?cat_id=$1 [L,NC]
+

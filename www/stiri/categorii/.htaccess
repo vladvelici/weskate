@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteBase /stiri/categorii
+
+
+## Categorii de stiri
+
+RewriteRule ^media$ index.php?cat_id=2 [L,NC]
+RewriteRule ^oferte$ index.php?cat_id=17 [L,NC]
+RewriteRule ^we-skate$ index.php?cat_id=8 [L,NC]
+RewriteRule ^evenimente$ index.php?cat_id=7 [L,NC]
+RewriteRule ^diverse$ index.php?cat_id=11 [L,NC]

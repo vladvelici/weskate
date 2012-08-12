@@ -1,0 +1,6 @@
+RewriteBase /trick/
+RewriteEngine On
+
+## trick wiki
+RewriteRule ^([^/\\\.]+)/?$ index.php?trick=$1 [L,NC]
+

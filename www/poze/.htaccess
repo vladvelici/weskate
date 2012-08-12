@@ -1,0 +1,11 @@
+RewriteBase /poze/
+RewriteEngine On
+
+## poze si albume :
+RewriteRule ^[^/]*\.([0-9]+)$ index.php?album_id=$1 [L,NC]
+RewriteRule ^[^/]*\.([0-9]+)-pag([0-9]+)$ index.php?album_id=$1&page=$2 [L,NC]
+RewriteRule ^[^/]*\/[^/]*poza([0-9]+)$ index.php?photo_id=$1 [L,NC]
+RewriteRule ^pag([0-9]+)$ index.php?page=$1 [L,NC]
+
+## mesaje de eroare:
+RewriteRule ^err:id-invalid$ index.php?err=1 [L]

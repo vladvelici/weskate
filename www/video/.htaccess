@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /video/
+
+
+## videos
+
+RewriteRule ^[^/]*\.([0-9]+)$ index.php?video_id=$1 [L,NC]
+

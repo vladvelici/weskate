@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteBase /stiri
+
+
+## stiri
+
+RewriteRule ^[^/]*\.([0-9]+)$ index.php?read=$1 [L,NC]
+RewriteRule ^orase/[^/]*\.([0-9]+)$ index.php?city=$1 [L,NC]
+RewriteRule ^orase/[^/]*\.([0-9]+)-pag([0-9]+)$ index.php?city=$1&page=$2 [L,NC]
+RewriteRule ^pag([0-9]+)$ index.php?page=$1 [L,NC]
+RewriteRule ^notfound$ index.php?err=nf [L,NC]

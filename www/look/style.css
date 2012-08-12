@@ -1,0 +1,528 @@
+/* Comment element properties */
+
+a {
+	color: #779;
+	text-decoration: none;
+	outline:none;
+}
+
+a:hover, a:focus {
+	color: #04688d;
+	text-decoration: underline;
+}
+
+a.side {
+	color: #555;
+	text-decoration: none;
+}
+
+a:hover.side, a:focus.side {
+	color: #04688d;
+	text-decoration: none;
+}
+
+a.footerlink {
+	padding:3px;
+	color:#225;
+}
+
+.agodate {
+	display:inline;
+	cursor:pointer;
+	border-bottom:1px dotted #999;
+}
+.agodate span {
+	padding-left:3px;
+	display:none;
+	color:#333;
+}
+.agodate:hover span {
+	display:inline;
+}
+a.sidep {
+	background-color:#ddf;
+	color:#555;
+	font-weight:bold;
+	font-size: 14px;
+	padding:4px;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	display:block;
+	background-repeat:repeat-x;
+	margin:3px;
+	border:1px solid #999;
+}
+
+a:hover.sidep, a:focus.sidep {
+	background-color:#99b;
+	color:#eee;
+	text-decoration:none;
+}
+
+a.sidep-sel {
+	background-color:#eef;
+	color:#779;
+	font-weight:bold;
+	font-size: 15px;
+	padding:4px;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	display:block;
+	background-repeat:repeat-x;
+	margin-bottom:4px;
+	margin-top:4px;
+	margin-left:9px;
+	border-top:1px solid #999;
+	border-left:1px solid #999;
+	border-bottom:1px solid #999;
+	z-index:2;
+}
+
+a.sidep-sel:hover, a.sidep-sel:focus { text-decoration:none; }
+
+
+
+
+
+a.latestarticles {
+	color: #000;
+	text-decoration: none;
+	display: block;
+
+}
+
+a.latestarticles:hover, a.latestarticles:focus {
+	color: #C0AE00;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+a.latestthreads {
+	color: #000;
+	text-decoration: none;
+	display: block;
+
+}
+
+a.latestthreads:hover, a.latestthreads:focus {
+	color: #43A74F;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+
+a.nextphotolink {
+	color: #999;
+	text-decoration:none;
+	font-size:100px;
+}
+a.nextphotolink:hover, a.nextphotolink:focus {
+	color: #ccc;
+	text-decoration:none;
+}
+
+
+a.latestnews {
+	color: #000;
+	text-decoration: none;
+	display:block;
+}
+
+a.latestnews:hover, a.latestnews:focus {
+	color: #EE9A3F;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #555;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:20px;
+	background-color: #fff;
+	background-image: url(http://img.weskate.ro/look/background.gif);
+	height:100%;
+}
+hr {
+	height:1px;
+	border:1px solid #ccc;
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+.alt {
+	color: #04688d;
+}
+
+.spacer {
+	margin-bottom: 5px;
+}
+
+.admin-message {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #555;
+	background-color: #f6f6f6;
+	border: 1px solid #e1e1e1;
+	padding: 3px 4px 5px 4px;
+	margin-bottom: 5px;
+}
+
+/* Form element properties */
+
+form {
+	margin: 0px;
+}
+
+.url-textbox {
+	background-color:#eee;
+	color:#336;
+	border : 1px dotted #555;
+	padding : 2px;
+}
+
+.url-textbox:hover, .url-textbox:focus {
+	padding:2px;
+	background-color:#fff;
+	background-image:url(http://img.weskate.ro/look/panou-mid.png);
+	color:#558;
+	font-weight:bold;
+	border : 1px solid #999;
+}
+
+/* General table properties */
+
+.center {
+	margin: 0 auto;
+}
+
+.tbl-border {
+	border-size: 1px;
+	border-style: solid;
+	border-color: #d0d0d0;
+}
+
+.tbl {
+	font-size: 12px;
+	color: #555;
+	background-color: #e0e0e0;
+	padding: 4px;
+}
+
+.tbl1 {
+	font-size: 12px;
+	color: #555;
+	background-color: #f7f7f7;
+	padding: 4px;
+}
+
+.tbl2 {
+	font-size: 12px;
+	color: #555;
+	background-color: #e9e9e9;
+	padding: 4px;
+}
+
+
+
+.quote {
+	font-size: 12px;
+	color: #555;
+	background-color: #f8f8f8;
+	padding: 4px;
+	margin: 0px 20px 0px 20px;
+	border: 1px solid #bbb;
+}
+
+.poll {
+	height: 12px;
+	border: 1px solid #bbb;
+}
+
+/* helpers */
+.flleft {float: left !important;}
+.flright {float: right !important;}
+.lightonhover:hover, .lightonhover:focus {
+	background-color: #d2d2d2;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	background-repeat:repeat-x;
+}
+.lightonhoverF:hover, .lightonhoverF:focus {
+	background-color: #d2d2d2;
+}
+.lightonhoverD:hover, .lightonhoverD:focus {
+	background-image: url(http://img.weskate.ro/look/degradeu.png);
+	background-repeat:repeat-x;
+}
+.ascuns {
+display:none;
+}
+.vizibil {
+display:block;
+}
+/* END helpers */
+
+.comment-name {
+	font-weight: bold;
+	color: #04688d;
+}
+
+.small {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.small2 {
+	font-size: 8px;
+	font-weight: normal;
+	color: #555;
+}
+
+/* Page Navigation */
+
+.pagenav {
+	padding:4px;
+}
+
+.pagenav a {
+	padding:4px 7px 4px 7px;
+	background-color:transparent;
+	color:#000;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+.pagenav a:hover {
+	text-decoration:none;
+	background-color:#000;
+	color:#fff;
+}
+
+.pagenav span {
+	padding:4px 7px 4px 7px;
+	text-decoration:none;
+	background-color:#ddd;
+	border:1px solid #999;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+
+/* WESKATE 5 */
+.main-container {
+	width:959px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	margin:0px auto 0px auto;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+	background-color:#F3F3F3;
+	padding:3px;
+	border:3px solid #ccc;
+}
+.header-umbra {
+	background-image: url(http://img.weskate.ro/look/bara.png);
+	background-repeat:repeat-x;
+	background-color:transparent;
+	height:16px;
+}
+.header-text-m {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.header-text-m a {
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.header-text-m a:hover {
+	text-decoration:underline;
+	color: #F3F3F3;
+}
+.header-linie {
+	background-image: url(http://img.weskate.ro/look/linie_pe_bara.png);
+	background-repeat: no-repeat;
+	background-position : bottom left;
+}
+
+.scapmain-gri { border-left:1px solid #ccc;border-right:1px solid #ccc;border-bottom:1px solid #ccc;border-top:0px;}
+.scapmain-albastru { border-left:1px solid #1B93AD;border-bottom:1px solid #1B93AD;border-right:1px solid #1B93AD;border-top:0px;}
+.scapmain-albastru-inchis { border-left:1px solid #3075FF;border-bottom:1px solid #3075FF;border-right:1px solid #3075FF;border-top:0px;}
+.scapmain-rosu { border-left:1px solid #BD5F5F;border-right:1px solid #BD5F5F;border-bottom:1px solid #BD5F5F;border-top:0px; }
+.scapmain-verde { border-left:1px solid #32963F;border-right:1px solid #32963F;border-bottom:1px solid #32963F;border-top:0px; }
+.scapmain-mov { border-left:1px solid #8B549D;border-right:1px solid #8B549D;border-bottom:1px solid #8B549D;border-top:0px; }
+.scapmain-oranj { border-left:1px solid #DD892F;border-right:1px solid #DD892F;border-bottom:1px solid #DD892F;border-top:0px; }
+.scapmain-galben { border-left:1px solid #C0AE00;border-right:1px solid #C0AE00;border-bottom:1px solid #C0AE00;border-top:0px; }
+.scapmain-roz { border-left:1px solid #FFB0B0;border-right:1px solid #FFB0B0;border-bottom:1px solid #FFB0B0;border-top:0px; }
+
+.scapmain-title-gri { background-color: #aaa; }
+.scapmain-title-albastru { background-color: #2CA4BE; }
+.scapmain-title-albastru-inchis { background-color: #4186FF; }
+.scapmain-title-rosu { background-color: #CE6F6F; }
+.scapmain-title-verde { background-color: #43A74F; }
+.scapmain-title-mov { background-color: #9C65AE; }
+.scapmain-title-oranj { background-color: #EE9A3F; }
+.scapmain-title-galben { background-color: #C0AE00;}
+.scapmain-title-roz { background-color: #FFB0B0;}
+
+.tabselectat a{
+	font-weight: bold;
+	color : #555;
+	padding-top:5px;
+	padding-bottom:6px;
+	padding-left:4px;
+	padding-right:4px;
+	border-left : 2px solid #ccc;
+	border-right : 2px solid #ccc;
+	border-top : 2px solid #ccc;
+	background-color : #ececec;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.tabselectat a:hover {
+	text-decoration : none;
+}
+.tabnormal a {
+	margin-left:2px;
+	margin-right:2px;
+	background-color : #e0e0e0;
+	padding:4px;
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+}
+.tabnormal a:hover {
+	background-color: #ccc;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	background-repeat:repeat-x;
+	border-left:1px dotted #999;
+	border-right:1px dotted #999;
+	border-top:1px dotted #999;
+	color : #777;
+	text-decoration:none;
+}
+
+.header-link-m {
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	display : block;
+}
+.header-link-m:hover, .header-link-m:focus{
+	color: #fff;
+	text-decoration: none;
+}
+.headerlink {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding:2px;
+
+}
+.headerlink:hover,.headerlink:focus {
+	text-decoration:none;
+	color:#333;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	background-repeat:repeat-x;
+}
+
+a.acasa:hover,a.acasa:focus { background-color:#2CA4BE;}
+a.video:hover,a.video:focus { background-color:#CE6F6F;}
+a.poze:hover,a.poze:focus {background-color:#3075FF;}
+a.spoturi:hover,a.spoturi:focus { background-color:#9C65AE;}
+a.stiri:hover,a.stiri:focus { background-color:#EE9A3F;}
+a.articole:hover,a.articole:focus {background-color:#CFCF00;}
+a.forum:hover,a.forum:focus {background-color:#43A74F;}
+a.trickuri:hover,a.trickuri:focus {background-color:#CC3366;}
+
+
+.content {
+	background-color: #FFFFFF;
+}
+
+/*notificari*/
+
+.notegreen {
+	margin:5px;
+	padding:5px;
+	background-color:#ADA;
+	border:1px solid #999;
+	text-align:center;
+	font-weight:bold;
+	font-size:13px;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	background-repeat:repeat-x;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+.notered {
+	margin:5px;
+	padding:5px;
+	background-color:#DAA;
+	border:1px solid #999;
+	text-align:center;
+	font-weight:bold;
+	font-size:13px;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	background-repeat:repeat-x;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+.noteyellow {
+	margin:5px;
+	padding:5px;
+	background-color:#DDA;
+	border:1px solid #999;
+	text-align:center;
+	font-weight:bold;
+	font-size:13px;
+	background-image: url(http://img.weskate.ro/look/panou-mid.png);
+	background-repeat:repeat-x;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+
+}
+/* colturi rotunde */
+.smallround {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+.round {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
+.biground {
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	behavior: url(http://weskate.ro/scripts/js/border-radius.htc);
+}
