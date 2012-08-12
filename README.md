@@ -7,14 +7,22 @@ The project was not continued or maintained after the contest, so this are the f
 Setup
 -----
 
-I'm sorry but you will need to change every occurrence of *.weskate.ro* to whatever host you are using to play with this code. Check in every file: PHP, JS, CSS, whatever...
+I'm sorry but you will need to change every occurrence of @.weskate.ro@ to whatever host you are using to play with this code. Check in every file: PHP, JS, CSS, whatever...
 
-Dump *structure.sql* into a MySQL database and setup *config.php* accordingly.
+Dump @structure.sql@ into a MySQL database and setup @config.php@ accordingly.
+
+You basically need apache with PHP and mod\_rewrite enabled. Also, you need to set up the following subdomains:
+
+    img.* -> www/img
+    profil.* -> www/profil
+    ajutor.* -> www/ajutor
+
+I hope that's all. If not, follow the errors (for a few hours) and if it still does not work, ask me.
 
 inside config.php
 -----------------
 
-There are some variables (they'll be **unset()** after they're not required anymore):
+There are some variables (they'll be @unset()@ after they're not required anymore):
 
     $db_host
     $db_user
@@ -28,9 +36,9 @@ It is straightforward what information you need to put there. :)
 Is this good?
 =============
 
-This is a good example of bad code structure. *DO NOT WRITE LIKE THIS.* I just share this code for... fun, I think.
+This is a good example of bad code structure.** DO NOT WRITE LIKE THIS.** I just share this code for... fun, I think.
 
-The Romania map used in *prin-tara* section might be useful for someone - it was a long process to get that result...
+The Romania map used in **prin-tara** section might be useful for someone - it was a long process to get that result...
 
 It is live!
 ===========
