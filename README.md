@@ -40,7 +40,11 @@ You can see this code live at http://weskate.ro.
 Copyrights and stuff
 ====================
 
-You can do whatever you want with my code from this repo AS LONG AS you keep a link to this repo somewhere with the code.
+GPL v3
+------
+This piece of software is released under GNU/GPL v3 licence. See COPYING for the full licence text.
+
+You can use this code as long as you keep it open-source.
 
 Third parties
 -------------
